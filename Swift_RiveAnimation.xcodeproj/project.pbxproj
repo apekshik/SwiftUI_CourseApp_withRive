@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		894267482845D5900066FF01 /* Swift_RiveAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267472845D5900066FF01 /* Swift_RiveAnimationApp.swift */; };
+		8942674A2845D5900066FF01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267492845D5900066FF01 /* ContentView.swift */; };
+		8942674C2845D5920066FF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8942674B2845D5920066FF01 /* Assets.xcassets */; };
+		8942674F2845D5920066FF01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8942674E2845D5920066FF01 /* Preview Assets.xcassets */; };
+		894267592845D5920066FF01 /* Swift_RiveAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267582845D5920066FF01 /* Swift_RiveAnimationTests.swift */; };
+		894267632845D5920066FF01 /* Swift_RiveAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267622845D5920066FF01 /* Swift_RiveAnimationUITests.swift */; };
+		894267652845D5920066FF01 /* Swift_RiveAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267642845D5920066FF01 /* Swift_RiveAnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		894267552845D5920066FF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8942673C2845D5900066FF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 894267432845D5900066FF01;
+			remoteInfo = Swift_RiveAnimation;
+		};
+		8942675F2845D5920066FF01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8942673C2845D5900066FF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 894267432845D5900066FF01;
+			remoteInfo = Swift_RiveAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		894267442845D5900066FF01 /* Swift_RiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_RiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		894267472845D5900066FF01 /* Swift_RiveAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RiveAnimationApp.swift; sourceTree = "<group>"; };
+		894267492845D5900066FF01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8942674B2845D5920066FF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8942674E2845D5920066FF01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		894267542845D5920066FF01 /* Swift_RiveAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_RiveAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894267582845D5920066FF01 /* Swift_RiveAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RiveAnimationTests.swift; sourceTree = "<group>"; };
+		8942675E2845D5920066FF01 /* Swift_RiveAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_RiveAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894267622845D5920066FF01 /* Swift_RiveAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RiveAnimationUITests.swift; sourceTree = "<group>"; };
+		894267642845D5920066FF01 /* Swift_RiveAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RiveAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894267412845D5900066FF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894267512845D5920066FF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8942675B2845D5920066FF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8942673B2845D5900066FF01 = {
+			isa = PBXGroup;
+			children = (
+				894267462845D5900066FF01 /* Swift_RiveAnimation */,
+				894267572845D5920066FF01 /* Swift_RiveAnimationTests */,
+				894267612845D5920066FF01 /* Swift_RiveAnimationUITests */,
+				894267452845D5900066FF01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		894267452845D5900066FF01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				894267442845D5900066FF01 /* Swift_RiveAnimation.app */,
+				894267542845D5920066FF01 /* Swift_RiveAnimationTests.xctest */,
+				8942675E2845D5920066FF01 /* Swift_RiveAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		894267462845D5900066FF01 /* Swift_RiveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				894267472845D5900066FF01 /* Swift_RiveAnimationApp.swift */,
+				894267492845D5900066FF01 /* ContentView.swift */,
+				8942674B2845D5920066FF01 /* Assets.xcassets */,
+				8942674D2845D5920066FF01 /* Preview Content */,
+			);
+			path = Swift_RiveAnimation;
+			sourceTree = "<group>";
+		};
+		8942674D2845D5920066FF01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8942674E2845D5920066FF01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		894267572845D5920066FF01 /* Swift_RiveAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				894267582845D5920066FF01 /* Swift_RiveAnimationTests.swift */,
+			);
+			path = Swift_RiveAnimationTests;
+			sourceTree = "<group>";
+		};
+		894267612845D5920066FF01 /* Swift_RiveAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				894267622845D5920066FF01 /* Swift_RiveAnimationUITests.swift */,
+				894267642845D5920066FF01 /* Swift_RiveAnimationUITestsLaunchTests.swift */,
+			);
+			path = Swift_RiveAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		894267432845D5900066FF01 /* Swift_RiveAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894267682845D5920066FF01 /* Build configuration list for PBXNativeTarget "Swift_RiveAnimation" */;
+			buildPhases = (
+				894267402845D5900066FF01 /* Sources */,
+				894267412845D5900066FF01 /* Frameworks */,
+				894267422845D5900066FF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_RiveAnimation;
+			productName = Swift_RiveAnimation;
+			productReference = 894267442845D5900066FF01 /* Swift_RiveAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		894267532845D5920066FF01 /* Swift_RiveAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8942676B2845D5920066FF01 /* Build configuration list for PBXNativeTarget "Swift_RiveAnimationTests" */;
+			buildPhases = (
+				894267502845D5920066FF01 /* Sources */,
+				894267512845D5920066FF01 /* Frameworks */,
+				894267522845D5920066FF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				894267562845D5920066FF01 /* PBXTargetDependency */,
+			);
+			name = Swift_RiveAnimationTests;
+			productName = Swift_RiveAnimationTests;
+			productReference = 894267542845D5920066FF01 /* Swift_RiveAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8942675D2845D5920066FF01 /* Swift_RiveAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8942676E2845D5920066FF01 /* Build configuration list for PBXNativeTarget "Swift_RiveAnimationUITests" */;
+			buildPhases = (
+				8942675A2845D5920066FF01 /* Sources */,
+				8942675B2845D5920066FF01 /* Frameworks */,
+				8942675C2845D5920066FF01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				894267602845D5920066FF01 /* PBXTargetDependency */,
+			);
+			name = Swift_RiveAnimationUITests;
+			productName = Swift_RiveAnimationUITests;
+			productReference = 8942675E2845D5920066FF01 /* Swift_RiveAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8942673C2845D5900066FF01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					894267432845D5900066FF01 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					894267532845D5920066FF01 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 894267432845D5900066FF01;
+					};
+					8942675D2845D5920066FF01 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 894267432845D5900066FF01;
+					};
+				};
+			};
+			buildConfigurationList = 8942673F2845D5900066FF01 /* Build configuration list for PBXProject "Swift_RiveAnimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8942673B2845D5900066FF01;
+			productRefGroup = 894267452845D5900066FF01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				894267432845D5900066FF01 /* Swift_RiveAnimation */,
+				894267532845D5920066FF01 /* Swift_RiveAnimationTests */,
+				8942675D2845D5920066FF01 /* Swift_RiveAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		894267422845D5900066FF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8942674F2845D5920066FF01 /* Preview Assets.xcassets in Resources */,
+				8942674C2845D5920066FF01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894267522845D5920066FF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8942675C2845D5920066FF01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		894267402845D5900066FF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8942674A2845D5900066FF01 /* ContentView.swift in Sources */,
+				894267482845D5900066FF01 /* Swift_RiveAnimationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894267502845D5920066FF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894267592845D5920066FF01 /* Swift_RiveAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8942675A2845D5920066FF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894267632845D5920066FF01 /* Swift_RiveAnimationUITests.swift in Sources */,
+				894267652845D5920066FF01 /* Swift_RiveAnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		894267562845D5920066FF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 894267432845D5900066FF01 /* Swift_RiveAnimation */;
+			targetProxy = 894267552845D5920066FF01 /* PBXContainerItemProxy */;
+		};
+		894267602845D5920066FF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 894267432845D5900066FF01 /* Swift_RiveAnimation */;
+			targetProxy = 8942675F2845D5920066FF01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		894267662845D5920066FF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		894267672845D5920066FF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		894267692845D5920066FF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift_RiveAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = L4M75K683P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apekshik.Swift-RiveAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8942676A2845D5920066FF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift_RiveAnimation/Preview Content\"";
+				DEVELOPMENT_TEAM = L4M75K683P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apekshik.Swift-RiveAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8942676C2845D5920066FF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M75K683P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apekshik.Swift-RiveAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_RiveAnimation.app/Swift_RiveAnimation";
+			};
+			name = Debug;
+		};
+		8942676D2845D5920066FF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M75K683P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apekshik.Swift-RiveAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_RiveAnimation.app/Swift_RiveAnimation";
+			};
+			name = Release;
+		};
+		8942676F2845D5920066FF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M75K683P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apekshik.Swift-RiveAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_RiveAnimation;
+			};
+			name = Debug;
+		};
+		894267702845D5920066FF01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4M75K683P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apekshik.Swift-RiveAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_RiveAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8942673F2845D5900066FF01 /* Build configuration list for PBXProject "Swift_RiveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894267662845D5920066FF01 /* Debug */,
+				894267672845D5920066FF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894267682845D5920066FF01 /* Build configuration list for PBXNativeTarget "Swift_RiveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894267692845D5920066FF01 /* Debug */,
+				8942676A2845D5920066FF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8942676B2845D5920066FF01 /* Build configuration list for PBXNativeTarget "Swift_RiveAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8942676C2845D5920066FF01 /* Debug */,
+				8942676D2845D5920066FF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8942676E2845D5920066FF01 /* Build configuration list for PBXNativeTarget "Swift_RiveAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8942676F2845D5920066FF01 /* Debug */,
+				894267702845D5920066FF01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8942673C2845D5900066FF01 /* Project object */;
+}
