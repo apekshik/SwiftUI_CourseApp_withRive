@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_RiveAnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
     }
 }

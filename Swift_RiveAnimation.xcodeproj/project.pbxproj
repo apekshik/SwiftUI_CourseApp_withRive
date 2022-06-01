@@ -28,6 +28,8 @@
 		89426790284619B20066FF01 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8942678D284619B20066FF01 /* Inter-SemiBold.ttf */; };
 		894267922846203B0066FF01 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267912846203B0066FF01 /* CustomFont.swift */; };
 		8955F91D284627120044E026 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F91C284627120044E026 /* SignInView.swift */; };
+		8955F91F2846430F0044E026 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F91E2846430F0044E026 /* CustomTextField.swift */; };
+		8955F92128464DE70044E026 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F92028464DE70044E026 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		8942678D284619B20066FF01 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		894267912846203B0066FF01 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomFont.swift; path = "../../Downloaded Assets/SwiftUI Animations/Xcode Course/4. Custom Fonts/Animated/CustomFont.swift"; sourceTree = "<group>"; };
 		8955F91C284627120044E026 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		8955F91E2846430F0044E026 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8955F92028464DE70044E026 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 				894267492845D5900066FF01 /* ContentView.swift */,
 				894267852845EE850066FF01 /* OnboardingView.swift */,
 				8955F91C284627120044E026 /* SignInView.swift */,
+				8955F92028464DE70044E026 /* Extensions.swift */,
+				8955F91E2846430F0044E026 /* CustomTextField.swift */,
 				894267912846203B0066FF01 /* CustomFont.swift */,
 				8942674B2845D5920066FF01 /* Assets.xcassets */,
 				8942678A284619B20066FF01 /* Fonts */,
@@ -334,9 +340,11 @@
 			files = (
 				894267922846203B0066FF01 /* CustomFont.swift in Sources */,
 				894267862845EE850066FF01 /* OnboardingView.swift in Sources */,
+				8955F91F2846430F0044E026 /* CustomTextField.swift in Sources */,
 				8942674A2845D5900066FF01 /* ContentView.swift in Sources */,
 				894267482845D5900066FF01 /* Swift_RiveAnimationApp.swift in Sources */,
 				8955F91D284627120044E026 /* SignInView.swift in Sources */,
+				8955F92128464DE70044E026 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+
 struct SignInView: View {
     @State var email = ""
+    @State var password = ""
 
     var body: some View {
         VStack(spacing: 24) {
@@ -17,28 +19,38 @@ struct SignInView: View {
             Text("Access to 240+ hours of content. Learn design and code, by building real apps with React and Swift.")
                 .customFont(.headline)
             
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Email")
                     .customFont(.subheadline)
                     .foregroundColor(.secondary)
                 TextField("", text: $email)
-                    .padding(15)
-                    .padding(.leading, 36)
-                    .background(.white)
-                    .mask(RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous)
-                        .stroke()
-                        .fill(.black.opacity(0.1))
-                    )
-                    .overlay(Image("Icon Email")
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.leading, 8)
-                    )
-            
+                    .customTextField()
             }
             
-            Divider()
+            VStack(alignment: .leading) {
+                Text("Password")
+                    .customFont(.subheadline)
+                    .foregroundColor(.secondary)
+                SecureField("", text: $password)
+                    .customTextField(Image("Icon Lock"))
+            }
             
+            Label("Sign In", systemImage: "arrow.forward")
+                .customFont(.headline)
+                .padding(20)
+                .frame(maxWidth: .infinity)
+                .background((Color(hex: "F77D8E")))
+                .foregroundColor(.white)
+                .cornerRadius(20, corners: [.topRight, .bottomLeft, .bottomRight])
+                .cornerRadius(8 , corners: [.topLeft])
+                .shadow(color: (Color(hex: "F77D8E")).opacity(0.6), radius: 20, x: 0, y: 10)
+            HStack {
+                Rectangle().frame(height: 1).opacity(0.2)
+                Text("OR")
+                    .customFont(.subheadline2)
+                    .foregroundColor(.black.opacity(0.3))
+                Rectangle().frame(height: 1).opacity(0.2)
+            }
             Text("Sign up with Email, Apple, or Google")
                 .customFont(.subheadline)
                 .foregroundColor(.secondary)
