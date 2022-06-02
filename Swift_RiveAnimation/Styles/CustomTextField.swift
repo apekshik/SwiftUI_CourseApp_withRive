@@ -23,6 +23,7 @@ struct CustomTextField: ViewModifier {
             .overlay(image.frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading, 8)
             )
+            .foregroundColor(Color("ConstantBlack"))
     }
 }
 

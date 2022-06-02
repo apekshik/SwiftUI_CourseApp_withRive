@@ -20,12 +20,12 @@ struct OnboardingView: View {
                 .offset(y: showModal ? -50 : 0)
                 .blur(radius: showModal ? 30 : 0)
             
-            Color("shadow")
+            Color("Shadow")
                 .opacity(showModal ? 0.4 : 0)
                 .ignoresSafeArea()
             
             if showModal {
-                SignInView()
+                SignInView(showModal: $showModal)
                     .transition(.move(edge: .top).combined(with: .opacity))
                     .overlay(
                         Button {
@@ -67,6 +67,7 @@ struct OnboardingView: View {
                 .frame(width: 236, height: 64)
                 .overlay(
                     Label("Start the Course", systemImage: "arrow.forward")
+                        .foregroundColor(Color("ConstantBlack"))
                         .offset(x: 4, y: 4)
                         .font(.headline)
                 )

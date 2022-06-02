@@ -30,6 +30,8 @@
 		8955F91D284627120044E026 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F91C284627120044E026 /* SignInView.swift */; };
 		8955F91F2846430F0044E026 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F91E2846430F0044E026 /* CustomTextField.swift */; };
 		8955F92128464DE70044E026 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F92028464DE70044E026 /* Extensions.swift */; };
+		8955F92628489D880044E026 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F92528489D880044E026 /* TabBar.swift */; };
+		8955F9282848B3DE0044E026 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F9272848B3DE0044E026 /* VCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,9 @@
 		8955F91C284627120044E026 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		8955F91E2846430F0044E026 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8955F92028464DE70044E026 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8955F92428475C0C0044E026 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		8955F92528489D880044E026 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		8955F9272848B3DE0044E026 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +135,10 @@
 				89426789284619960066FF01 /* Swift-RiveAnimation-Info.plist */,
 				894267472845D5900066FF01 /* Swift_RiveAnimationApp.swift */,
 				894267492845D5900066FF01 /* ContentView.swift */,
-				894267852845EE850066FF01 /* OnboardingView.swift */,
-				8955F91C284627120044E026 /* SignInView.swift */,
-				8955F92028464DE70044E026 /* Extensions.swift */,
-				8955F91E2846430F0044E026 /* CustomTextField.swift */,
+				8955F92528489D880044E026 /* TabBar.swift */,
+				8955F9272848B3DE0044E026 /* VCard.swift */,
+				8955F92228475C040044E026 /* Views */,
+				8955F92328475C0C0044E026 /* Styles */,
 				894267912846203B0066FF01 /* CustomFont.swift */,
 				8942674B2845D5920066FF01 /* Assets.xcassets */,
 				8942678A284619B20066FF01 /* Fonts */,
@@ -190,6 +195,25 @@
 				8942678D284619B20066FF01 /* Inter-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8955F92228475C040044E026 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				894267852845EE850066FF01 /* OnboardingView.swift */,
+				8955F91C284627120044E026 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8955F92328475C0C0044E026 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8955F92028464DE70044E026 /* Extensions.swift */,
+				8955F91E2846430F0044E026 /* CustomTextField.swift */,
+				8955F92428475C0C0044E026 /* CustomFont.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,9 +362,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8955F9282848B3DE0044E026 /* VCard.swift in Sources */,
 				894267922846203B0066FF01 /* CustomFont.swift in Sources */,
 				894267862845EE850066FF01 /* OnboardingView.swift in Sources */,
 				8955F91F2846430F0044E026 /* CustomTextField.swift in Sources */,
+				8955F92628489D880044E026 /* TabBar.swift in Sources */,
 				8942674A2845D5900066FF01 /* ContentView.swift in Sources */,
 				894267482845D5900066FF01 /* Swift_RiveAnimationApp.swift in Sources */,
 				8955F91D284627120044E026 /* SignInView.swift in Sources */,
