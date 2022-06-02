@@ -26,6 +26,8 @@ struct HCard: View {
         .background(section.color)
         .foregroundColor(.white)
         .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
+        .shadow(color: section.color.opacity(0.3), radius: 30, x: 0, y: 12)
+        .shadow(color: section.color.opacity(0.3), radius: 5, x: 0, y: 2)
     }
 }
 
