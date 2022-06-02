@@ -17,7 +17,7 @@ struct ContentView: View {
         ZStack {
             switch selectedTab {
             case .chat:
-                Text("Chat")
+                HomeView()
             case .search:
                 Text("Search")
             case .timer:
