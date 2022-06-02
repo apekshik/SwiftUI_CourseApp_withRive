@@ -26,12 +26,14 @@
 		8942678E284619B20066FF01 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8942678B284619B20066FF01 /* Inter-Regular.ttf */; };
 		8942678F284619B20066FF01 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8942678C284619B20066FF01 /* Poppins-Bold.ttf */; };
 		89426790284619B20066FF01 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8942678D284619B20066FF01 /* Inter-SemiBold.ttf */; };
-		894267922846203B0066FF01 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894267912846203B0066FF01 /* CustomFont.swift */; };
 		8955F91D284627120044E026 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F91C284627120044E026 /* SignInView.swift */; };
 		8955F91F2846430F0044E026 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F91E2846430F0044E026 /* CustomTextField.swift */; };
 		8955F92128464DE70044E026 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F92028464DE70044E026 /* Extensions.swift */; };
 		8955F92628489D880044E026 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F92528489D880044E026 /* TabBar.swift */; };
 		8955F9282848B3DE0044E026 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F9272848B3DE0044E026 /* VCard.swift */; };
+		89CA398E2848C383004228CF /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA398C2848C383004228CF /* CourseSection.swift */; };
+		89CA398F2848C383004228CF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA398D2848C383004228CF /* Course.swift */; };
+		89CA39902848C475004228CF /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955F92428475C0C0044E026 /* CustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,13 +76,14 @@
 		8942678B284619B20066FF01 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		8942678C284619B20066FF01 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		8942678D284619B20066FF01 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
-		894267912846203B0066FF01 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomFont.swift; path = "../../Downloaded Assets/SwiftUI Animations/Xcode Course/4. Custom Fonts/Animated/CustomFont.swift"; sourceTree = "<group>"; };
 		8955F91C284627120044E026 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		8955F91E2846430F0044E026 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8955F92028464DE70044E026 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8955F92428475C0C0044E026 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		8955F92528489D880044E026 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		8955F9272848B3DE0044E026 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		89CA398C2848C383004228CF /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		89CA398D2848C383004228CF /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +142,8 @@
 				8955F9272848B3DE0044E026 /* VCard.swift */,
 				8955F92228475C040044E026 /* Views */,
 				8955F92328475C0C0044E026 /* Styles */,
-				894267912846203B0066FF01 /* CustomFont.swift */,
 				8942674B2845D5920066FF01 /* Assets.xcassets */,
+				89CA398B2848C383004228CF /* Model */,
 				8942678A284619B20066FF01 /* Fonts */,
 				894267712845D8250066FF01 /* RiveAssets */,
 				8942674D2845D5920066FF01 /* Preview Content */,
@@ -209,11 +212,20 @@
 		8955F92328475C0C0044E026 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				8955F92428475C0C0044E026 /* CustomFont.swift */,
 				8955F92028464DE70044E026 /* Extensions.swift */,
 				8955F91E2846430F0044E026 /* CustomTextField.swift */,
-				8955F92428475C0C0044E026 /* CustomFont.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		89CA398B2848C383004228CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89CA398C2848C383004228CF /* CourseSection.swift */,
+				89CA398D2848C383004228CF /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,13 +375,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8955F9282848B3DE0044E026 /* VCard.swift in Sources */,
-				894267922846203B0066FF01 /* CustomFont.swift in Sources */,
 				894267862845EE850066FF01 /* OnboardingView.swift in Sources */,
+				89CA398F2848C383004228CF /* Course.swift in Sources */,
 				8955F91F2846430F0044E026 /* CustomTextField.swift in Sources */,
 				8955F92628489D880044E026 /* TabBar.swift in Sources */,
 				8942674A2845D5900066FF01 /* ContentView.swift in Sources */,
+				89CA39902848C475004228CF /* CustomFont.swift in Sources */,
 				894267482845D5900066FF01 /* Swift_RiveAnimationApp.swift in Sources */,
 				8955F91D284627120044E026 /* SignInView.swift in Sources */,
+				89CA398E2848C383004228CF /* CourseSection.swift in Sources */,
 				8955F92128464DE70044E026 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
